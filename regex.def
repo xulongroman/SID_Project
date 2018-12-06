@@ -1,0 +1,3 @@
+func_regex=\b(if|else|switch|for|while|repeat|return|continue|case|break)\b
+func_var_regex=\b(if|else|switch|for|while|repeat|return|continue|case|break)\b|[\=\^\<\>\;\(\-\+\*\/\)\s]
+var_regex=\b(floor|pi|cos)\b|[=\^\(\-\+\*\/\)\s]

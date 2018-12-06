@@ -1,0 +1,10 @@
+//=======================
+//
+// Radf C++ Option File
+//
+//=======================
+//int_OPT_DEBUG_SHOW_ERROR_MESSAGE	1 // 1: true, 0:false
+//dbl_OPT_MODEL_CONST_BLEND_RAD		2.0
+//str_OPT_HOOPS_DRIVER_TYPE		"opengl"
+str_OPT_JS_FILE_FOLDER       "./js_files/"
+str_OPT_DEMO_SAMPLE_FILE_FOLDER     "../../sample_files/"
