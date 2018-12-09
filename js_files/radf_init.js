@@ -128,6 +128,8 @@ AGM.Modelling.CreateLineEdge = modellingCreateLineEdge;
 //AGM.Modelling.CoverPlanarWire( wirebody, out sheetbody )
 AGM.Modelling.CoverPlanarWire = modellingCoverPlanarWire;
 AGM.Modelling.GetVertices = modellingGetVertices;
+//AGM.Modelling.GetNonPlanarEdgesByVertices( vertex | array of vertex, face )
+AGM.Modelling.GetNonPlanarEdgesByVertices = modellingGetNonPlanarEdgesByVertices;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;

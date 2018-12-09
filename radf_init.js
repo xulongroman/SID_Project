@@ -27,6 +27,10 @@ AGM.View.ZoomAll = viewZoomAll;
 
 /**************************[NameSpace "AGM.Part"]**************************/
 AGM.Part = {};
+////////////////////////////////////////////////////////////
+//AGM.Modelling.GetModelBody = modellingGetModelBody;
+//AGM.Modelling.GetModelBodyNumber = modellingGetModelBodyNumber;
+//////////////////////////////////////////////////////////////////
 AGM.Part.GetBody = modellingGetBody;
 AGM.Part.GetBodyNumber = modellingGetBodyNumber;
 AGM.Part.RemoveBody = modellingRemoveBody;
@@ -80,14 +84,6 @@ AGM.Modelling.TranslateTransf = modellingTranslateTransf;
 //AGM.Modelling.ApplyTransformToBody will apply the transform to the body
 AGM.Modelling.ApplyTransformToBody = modellingApplyTransformToBody;
 AGM.Modelling.ApplyTransform = modellingApplyTransform;
-////////////////////////////////////////////////////////////
-//AGM.Modelling.GetModelBody = modellingGetModelBody;
-//AGM.Modelling.Part.GetBody = modellingGetBody;
-//AGM.Modelling.GetModelBodyNumber = modellingGetModelBodyNumber;
-//AGM.Modelling.Part.GetBodyNumber = modellingGetBodyNumber;
-//AGM.Modelling.Part.RemoveBody = modellingRemoveBody;
-//AGM.Modelling.Part.RemoveAllBody = modellingRemoveAllBody;
-//////////////////////////////////////////////////////////////////
 //AGM.Modelling.CopyBody(sourcebody, out copybody)
 //The copied result will be returned in copybody
 AGM.Modelling.CopyBody = modellingCopyBody;
@@ -129,6 +125,11 @@ AGM.Modelling.CreateRectPlane2 = modellingCreateRectPlane2;
 AGM.Modelling.CopyFace = modellingCopyFace;
 //AGM.Modelling.CreateLineEdge( pos1, pos2, out WireBody )
 AGM.Modelling.CreateLineEdge = modellingCreateLineEdge;
+//AGM.Modelling.CoverPlanarWire( wirebody, out sheetbody )
+AGM.Modelling.CoverPlanarWire = modellingCoverPlanarWire;
+AGM.Modelling.GetVertices = modellingGetVertices;
+//AGM.Modelling.GetNonPlanarEdgesByVertices( vertex | array of vertex, face )
+AGM.Modelling.GetNonPlanarEdgesByVertices = modellingGetNonPlanarEdgesByVertices;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
