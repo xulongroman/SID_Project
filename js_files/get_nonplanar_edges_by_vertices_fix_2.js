@@ -27,6 +27,7 @@ var wirebody = AGM.Object();
 	//var v4 = AGM.Modelling.PickVertex(AGM.Position(0, 0, 0), AGM.Vector( -1, -1, 0), 10e-4);
 	
 	var f = AGM.Modelling.PickFace(AGM.Position(0, 0, 1), AGM.Vector(1, 0, 0), 10e-4);
-	var edge = AGM.Modelling.GetNonPlanarEdgesByVertices([v1], f);
+//	var edge = AGM.Modelling.GetNonPlanarEdgesByVertices([v1], f);
+	var edge = AGM.Modelling.GetNonPlanarEdgesByVertices(v1, f);
 	AGM.Modelling.BlendEdge(edge, 1);
 }

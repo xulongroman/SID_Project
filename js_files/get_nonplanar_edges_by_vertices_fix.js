@@ -20,12 +20,16 @@ var wirebody = AGM.Object();
 	AGM.Modelling.CreateLineEdge(AGM.Position(0, 0, 0), AGM.Position(0, 0, 3), path);
 	AGM.Modelling.Sweep(profile, path);
 	
-	var v1 = AGM.Modelling.PickVertex(AGM.Position(5, 0, 1), AGM.Vector( 0, 5, 2), 10e-4);
-	var v2 = AGM.Modelling.PickVertex(AGM.Position(5, 0, 1), AGM.Vector( 0, 5, -1), 10e-4);
+	var pos0 = AGM.Position(0, 0, 1);
+	var pos1 = AGM.Position(5, 5, 3);
+	var pos2 = AGM.Position(5, 5, 0);
+	
+	var v1 = AGM.Modelling.PickVertex(pos0, AGM.Vector( pos1.x - pos0.x, pos1.y - pos0.y, pos1.z - pos0.z), 10e-4);
+	var v2 = AGM.Modelling.PickVertex(pos0, AGM.Vector( pos2.x - pos0.x, pos2.y - pos0.y, pos2.z - pos0.z), 10e-4);
 	
 	//var v3 = AGM.Modelling.PickVertex(AGM.Position(0, 0, 0), AGM.Vector( 1, 1, 0), 10e-4);
 	//var v4 = AGM.Modelling.PickVertex(AGM.Position(0, 0, 0), AGM.Vector( -1, -1, 0), 10e-4);
-	
+
 	var f = AGM.Modelling.PickFace(AGM.Position(0, 0, 1), AGM.Vector(1, 0, 0), 10e-4);
 	var edges = AGM.Modelling.GetNonPlanarEdgesByVertices([v1,v2], f);
 	AGM.Modelling.BlendEdge(edges, 1);
