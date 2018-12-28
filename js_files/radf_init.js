@@ -131,6 +131,10 @@ AGM.Modelling.CoverPlanarWire = modellingCoverPlanarWire;
 AGM.Modelling.GetVertices = modellingGetVertices;
 //AGM.Modelling.GetNonPlanarEdgesByVertices( vertex | array of vertex, face )
 AGM.Modelling.GetNonPlanarEdgesByVertices = modellingGetNonPlanarEdgesByVertices;
+//AGM.Modelling.ScalePart( scale )
+AGM.Modelling.ScalePart = modellingScalePart;
+//AGM.Modelling.ScaleBody( body, scale )
+AGM.Modelling.ScaleBody = modellingScaleBody;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
