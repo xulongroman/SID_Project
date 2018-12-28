@@ -91,6 +91,7 @@ AGM.Modelling.CopyBody = modellingCopyBody;
 AGM.Modelling.SetColor = modellingSetColor;
 //AGM.Modelling.SetEntityColor( entity|Array of entities, r, g, b )
 AGM.Modelling.SetEntityColor = modellingSetEntityColor;
+//AGM.Modelling.SaveSat( filepath, version, unit, product_id )
 AGM.Modelling.SaveSat = modellingSaveSat;
 AGM.Modelling.GetFaceExternalEdges = modellingGetFaceExternalEdges;
 AGM.Modelling.BlendFace = modellingBlendFace;
@@ -103,7 +104,7 @@ AGM.Modelling.GetLoops = modellingGetLoops;
 AGM.Modelling.GetLoopType = modellingGetLoopType;
 //AGM.Modelling.ImportFile( filepath, logpath )
 AGM.Modelling.ImportFile = modellingImportFile;
-//AGM.Modelling.ExportFile( filepath, logpath )
+//AGM.Modelling.ExportFile( filepath, unit, logpath )
 AGM.Modelling.ExportFile = modellingExportFile;
 //AGM.Modelling.CreateEdgeByLaw( parameters, equation_x, equation_y, equation_z, start, end, *.exp,  out WireBody )
 AGM.Modelling.CreateEdgeByLaw = modellingCreateEdgeByLaw;
