@@ -23,6 +23,6 @@
 	var edges = [edge1, edge2, edge3];
 	var path = AGM.Object();
 	ret = AGM.Modelling.ConnectEdges(edges, path);
-	ret = AGM.Modelling.Sweep(face, path, 0);
+	ret = AGM.Modelling.SweepByPath(face, path, 0);
 	var helix = face;
 	ret = AGM.Modelling.SetColor(helix, 1, 0, 0);

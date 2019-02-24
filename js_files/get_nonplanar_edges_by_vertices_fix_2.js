@@ -18,7 +18,7 @@ var wirebody = AGM.Object();
 	AGM.Modelling.CoverPlanarWire(wirebody, profile);
 	var path = AGM.Object();
 	AGM.Modelling.CreateLineEdge(AGM.Position(0, 0, 0), AGM.Position(0, 0, 3), path);
-	AGM.Modelling.Sweep(profile, path);
+	AGM.Modelling.SweepByPath(profile, path);
 	
 	var v1 = AGM.Modelling.PickVertex(AGM.Position(5, 0, 1), AGM.Vector( 0, 5, 2), 10e-4);
 //	var v2 = AGM.Modelling.PickVertex(AGM.Position(5, 0, 1), AGM.Vector( 0, 5, -1), 10e-4);

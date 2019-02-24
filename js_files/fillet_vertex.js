@@ -25,6 +25,6 @@ var wirebody = AGM.Object();
 //	AGM.Modelling.CoverPlanarWire(wirebody, profile);
 //	var path = AGM.Object();
 //	AGM.Modelling.CreateLineEdge(AGM.Position(0, 0, 0), AGM.Position(0, 0, 5), path);
-//	AGM.Modelling.Sweep(profile, path);
+//	AGM.Modelling.SweepByPath(profile, path);
 //	AGM.Part.RemoveBody(0);
 }

@@ -26,7 +26,7 @@ function Re_helix(OD,Free_length,Wire_dia,Total_coils,Dir,D){//Mex type_rectangl
 	
 	var path = AGM.Object();
 	ret = AGM.Modelling.ConnectEdges(edges, path);//路径
-	ret = AGM.Modelling.Sweep(face, path, 1, AGM.Vector(0,0,1));//扫略 check �?
+	ret = AGM.Modelling.SweepByPath(face, path, 1, AGM.Vector(0,0,1));//扫略 check �?
 	var helix = face;//结果/**/
 };
 Re_helix(11,20,1,6.5,-1,7);

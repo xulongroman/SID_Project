@@ -114,8 +114,8 @@ AGM.Modelling.GetPosAndDirOnEdge = modellingGetPosAndDirOnEdge;
 AGM.Modelling.CreatePlanarDisk = modellingCreatePlanarDisk;
 //AGM.Modelling.ConnectEdges( Array of edges, out WireBody)
 AGM.Modelling.ConnectEdges = modellingConnectEdges;
-//AGM.Modelling.Sweep( profile, path, self_int_check, sweep_with_axis, draft)
-AGM.Modelling.Sweep = modellingSweep;
+//AGM.Modelling.SweepByPath( profile, path, self_int_check, sweep_with_axis, draft)
+AGM.Modelling.SweepByPath = modellingSweepByPath;
 //AGM.Modelling.CreateRectPlane( position, normal, xaxis, width, height, out ModelObject )
 AGM.Modelling.CreateRectPlane= modellingCreateRectPlane;
 //AGM.Modelling.CreateHelixEdge( axis_start, axis_end, start_dir, radius,  thread_distance , right_handed,  out WireBody )
@@ -135,6 +135,10 @@ AGM.Modelling.GetNonPlanarEdgesByVertices = modellingGetNonPlanarEdgesByVertices
 AGM.Modelling.ScalePart = modellingScalePart;
 //AGM.Modelling.ScaleBody( body, scale )
 AGM.Modelling.ScaleBody = modellingScaleBody;
+//AGM.Modelling.Combine( blank, tool0, tool1, tool2...)
+AGM.Modelling.Combine = modellingCombine;
+//AGM.Modelling.Separate( ModelObject, out Array of ModelObject)
+AGM.Modelling.Separate = modellingSeparate;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
@@ -156,7 +160,7 @@ AGM.Sketcher.CreatePolyline = sketchCreatePolyline;
 AGM.Sketcher.CreateCenterLine = sketchCreateCenterLine;
 AGM.Sketcher.FixModel = sketchFixModel;
 AGM.Sketcher.ConvertToWire = sketchConvertToWire;
-
+AGM.Sketcher.ConvertToPath = sketchConvertToPath;
 /**************************[NameSpace "AGM.Sim"]**************************/
 //AGM.Sim = {};
 //AGM.Sim.loadRobotFile = loadRobotFile;
