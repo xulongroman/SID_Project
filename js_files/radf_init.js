@@ -139,6 +139,8 @@ AGM.Modelling.ScaleBody = modellingScaleBody;
 AGM.Modelling.Combine = modellingCombine;
 //AGM.Modelling.Separate( ModelObject, out Array of ModelObject)
 AGM.Modelling.Separate = modellingSeparate;
+//AGM.Modelling.ConvertFaceToPath( face, out WireObject )
+AGM.Modelling.ConvertFaceToPath = modellingConvertFaceToPath;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
@@ -160,7 +162,6 @@ AGM.Sketcher.CreatePolyline = sketchCreatePolyline;
 AGM.Sketcher.CreateCenterLine = sketchCreateCenterLine;
 AGM.Sketcher.FixModel = sketchFixModel;
 AGM.Sketcher.ConvertToWire = sketchConvertToWire;
-//AGM.Sketcher.ConvertToPath( DoGSketch, out WireObject)
 AGM.Sketcher.ConvertToPath = sketchConvertToPath;
 /**************************[NameSpace "AGM.Sim"]**************************/
 //AGM.Sim = {};
