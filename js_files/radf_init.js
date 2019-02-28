@@ -38,11 +38,11 @@ AGM.Part.RemoveAllBody = modellingRemoveAllBody;
 //////////////////////////////////////////////////////////////////
 /**************************[NameSpace "AGM.Modelling"]**************************/
 AGM.Modelling = {};
-//var face = AGM.Modelling.PickEdge( point, vector, apertureb )
+//var face = AGM.Modelling.PickEdge( point, vector, apertureb, body )
 AGM.Modelling.PickEdge = modellingPickEdge;
-//var face = AGM.Modelling.PickFace( point, vector, apertureb )
+//var face = AGM.Modelling.PickFace( point, vector, apertureb, body )
 AGM.Modelling.PickFace = modellingPickFace;
-//AGM.Modelling.PickVertex( point, vector, apertureb)
+//AGM.Modelling.PickVertex( point, vector, apertureb, body)
 AGM.Modelling.PickVertex = modellingPickVertex;
 //AGM.Modelling.FilletVertex( vertex | array of vertices, radius )
 AGM.Modelling.FilletVertex = modellingFilletVertex;
