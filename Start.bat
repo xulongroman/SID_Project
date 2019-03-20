@@ -9,7 +9,7 @@ set ARCH_RELEASE=NT_VC14_64_DLL
 set HOOPS=%AGM_HOME%\..\hoops
 set HOOPS_ARCH=nt_x64_vc14
 
-set V8_HOME=%AGM_HOME%\v8
+set V8_HOME=%AGM_HOME%\..\v8
 
 SET RADF_BUILD_VER=2900
 SET PATH=%A3DT%\%ARCH_RELEASE%\code\bin;%X3DT%\%ARCH_RELEASE%\code\bin;%HOOPS%\bin\%HOOPS_ARCH%;%V8_HOME%\bin\x64;%path%;
