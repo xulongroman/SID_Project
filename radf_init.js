@@ -38,11 +38,11 @@ AGM.Part.RemoveAllBody = modellingRemoveAllBody;
 //////////////////////////////////////////////////////////////////
 /**************************[NameSpace "AGM.Modelling"]**************************/
 AGM.Modelling = {};
-//var face = AGM.Modelling.PickEdge( point, vector, apertureb )
+//var face = AGM.Modelling.PickEdge( point, vector, apertureb, body )
 AGM.Modelling.PickEdge = modellingPickEdge;
-//var face = AGM.Modelling.PickFace( point, vector, apertureb )
+//var face = AGM.Modelling.PickFace( point, vector, apertureb, body )
 AGM.Modelling.PickFace = modellingPickFace;
-//AGM.Modelling.PickVertex( point, vector, apertureb)
+//AGM.Modelling.PickVertex( point, vector, apertureb, body)
 AGM.Modelling.PickVertex = modellingPickVertex;
 //AGM.Modelling.FilletVertex( vertex | array of vertices, radius )
 AGM.Modelling.FilletVertex = modellingFilletVertex;
@@ -141,6 +141,8 @@ AGM.Modelling.Combine = modellingCombine;
 AGM.Modelling.Separate = modellingSeparate;
 //AGM.Modelling.ConvertFaceToPath( face, out WireObject )
 AGM.Modelling.ConvertFaceToPath = modellingConvertFaceToPath;
+//AGM.Modelling.SetBodyName( ModelObject, bodyName )
+AGM.Modelling.SetBodyName = modellingSetBodyName;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;

@@ -141,6 +141,8 @@ AGM.Modelling.Combine = modellingCombine;
 AGM.Modelling.Separate = modellingSeparate;
 //AGM.Modelling.ConvertFaceToPath( face, out WireObject )
 AGM.Modelling.ConvertFaceToPath = modellingConvertFaceToPath;
+//AGM.Modelling.SetBodyName( ModelObject, bodyName )
+AGM.Modelling.SetBodyName = modellingSetBodyName;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
