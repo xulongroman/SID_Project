@@ -19,6 +19,6 @@
 	ret = AGM.Modelling.SetBodyName( DoBlock, "b1" );
 	ret = AGM.Modelling.SetBodyName( DoBlock2, "b2" );
 	AGM.Modelling.SaveSat("D:\\SINUS-3D\\StagingEnvironment\\JS-data\\..\\AGM-output\\ACIS\\test.sat",16,"millimeter");
-	AGM.Modelling.ExportFile("D:\\SINUS-3D\\StagingEnvironment\\JS-data\\..\\AGM-output\\STEP\\test.step","millimeter",0);
-	AGM.Modelling.ExportFile("D:\\SINUS-3D\\StagingEnvironment\\JS-data\\..\\AGM-output\\IGES\\test.iges","millimeter",0);
+	AGM.Modelling.ExportFile("D:\\SINUS-3D\\StagingEnvironment\\JS-data\\..\\AGM-output\\STEP\\test.step","millimeter",1);
+	AGM.Modelling.ExportFile("D:\\SINUS-3D\\StagingEnvironment\\JS-data\\..\\AGM-output\\IGES\\test.iges","millimeter",1);
 	
