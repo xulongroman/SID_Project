@@ -143,6 +143,8 @@ AGM.Modelling.Separate = modellingSeparate;
 AGM.Modelling.ConvertFaceToPath = modellingConvertFaceToPath;
 //AGM.Modelling.SetBodyName( ModelObject, bodyName )
 AGM.Modelling.SetBodyName = modellingSetBodyName;
+//AGM.Modelling.ExportDrw( filepath, drawingName )
+AGM.Modelling.ExportDrw = modellingExportDrawing;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
