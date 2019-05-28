@@ -1,4 +1,4 @@
-﻿AGM.Modelling.ImportFile("C:\\Users\\lx3\\Desktop\\SLLK16-C.sat");
-AGM.Modelling.ExportDrw("C:\\Users\\lx3\\Desktop\\SLLK16-C.dwg", "MyTest");
+﻿AGM.Modelling.ImportFile("D:\\测试数据\\CAM\\nla050006.stp");
+AGM.Modelling.SaveSat("D:\\测试数据\\CAM\\nla050006.stp.sat", 16);
 	
 	
