@@ -15,5 +15,6 @@ SET RADF_BUILD_VER=2900
 SET PATH=%A3DT%\%ARCH_RELEASE%\code\bin;%X3DT%\%ARCH_RELEASE%\code\bin;%HOOPS%\bin\%HOOPS_ARCH%;%V8_HOME%\bin\x64;%RDWG%;%SPGATE%\bin\x64\Release;%path%;
 
 cd %AGM_HOME%
-start SIDCmd.exe -file "D:\SINUS-3D\StagingEnvironment\JS-data\test222.csv" -format "dwg" -drawingname "test_123" -drawingview "111"
+rem start SIDCmd.exe -file "D:\SINUS-3D\StagingEnvironment\JS-data\AJX051950P2.csv" -format "step"
+start RadfWpfAppLauncher.exe
 
