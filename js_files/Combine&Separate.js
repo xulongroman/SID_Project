@@ -9,3 +9,13 @@
 	var arr = [];
 	ret = AGM.Modelling.Separate(DoBlock1, arr);
 	
+	var bodies = [];
+	bodies[0] = arr[0];
+	bodies[1] = arr[1];
+	var reflects = [];
+	AGM.Modelling.ReflectBodies(bodies, AGM.Position( 0, 0, 0 ), AGM.Vector( 1, 0, 0 ), reflects);
+	
+	var obj = AGM.Object();
+	AGM.Modelling.ReflectBodies(arr[2], AGM.Position( 0, 0, 0 ), AGM.Vector( 1, 0, 0 ), obj);
+	
+	

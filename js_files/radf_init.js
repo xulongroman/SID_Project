@@ -145,6 +145,10 @@ AGM.Modelling.ConvertFaceToPath = modellingConvertFaceToPath;
 AGM.Modelling.SetBodyName = modellingSetBodyName;
 //AGM.Modelling.ExportDrw( filepath, drawingName, drawingView )
 AGM.Modelling.ExportDrw = modellingExportDrawing;
+//AGM.Modelling.SplitBody( inbody, position, normal, out body1, out body2 )
+AGM.Modelling.SplitBody = modellingSplitBody;
+//AGM.Modelling.ReflectBodies( ModelObject | Array of ModelObject, position, normal, out ModelObject | Array of ModelObject )
+AGM.Modelling.ReflectBodies = modellingReflectBody;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
