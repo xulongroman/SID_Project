@@ -139,7 +139,7 @@ AGM.Modelling.ScaleBody = modellingScaleBody;
 AGM.Modelling.Combine = modellingCombine;
 //AGM.Modelling.Separate( ModelObject, out Array of ModelObject)
 AGM.Modelling.Separate = modellingSeparate;
-//AGM.Modelling.ConvertFaceToPath( face, out WireObject )
+//AGM.Modelling.ConvertFaceToPath( face, out WireObject, bExternel = false )
 AGM.Modelling.ConvertFaceToPath = modellingConvertFaceToPath;
 //AGM.Modelling.SetBodyName( ModelObject, bodyName )
 AGM.Modelling.SetBodyName = modellingSetBodyName;
@@ -149,6 +149,9 @@ AGM.Modelling.ExportDrw = modellingExportDrawing;
 AGM.Modelling.SplitBody = modellingSplitBody;
 //AGM.Modelling.ReflectBodies( ModelObject | Array of ModelObject, position, normal, out ModelObject | Array of ModelObject )
 AGM.Modelling.ReflectBodies = modellingReflectBody;
+//AGM.Modelling.ConvertFaceToProfile( face, out SheetObject);
+AGM.Modelling.ConvertFaceToProfile = modellingConvertFaceToProfile;
+
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
