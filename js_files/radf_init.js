@@ -151,7 +151,12 @@ AGM.Modelling.SplitBody = modellingSplitBody;
 AGM.Modelling.ReflectBodies = modellingReflectBody;
 //AGM.Modelling.ConvertFaceToProfile( face, out SheetObject);
 AGM.Modelling.ConvertFaceToProfile = modellingConvertFaceToProfile;
-
+//AGM.Modelling.CreateTextSheet( text, fontname, fontsize, xlength, ylength, target_origin, target_x_axis, target_y_axis, wrap, out ModelObject, )
+AGM.Modelling.CreateTextSheet = modellingCreateTextSheet;
+//AGM.Modelling.SweepByDist( in\out profile, distance, bothside )
+AGM.Modelling.SweepByDist = modellingSweepByDist;
+//AGM.Modelling.IntersectHollowCylinder( in\out Modelbody, bottom_position, top_position, max_radius, min_radius )
+AGM.Modelling.IntersectHollowCylinder = modellingIntersectHollowCylinder;
 /**************************[NameSpace "AGM.Sketcher"]**************************/
 AGM.Sketcher = {};
 AGM.Sketcher.CreateDocument = sketchCreateDocument;
