@@ -153,7 +153,7 @@ AGM.Modelling.ReflectBodies = modellingReflectBody;
 AGM.Modelling.ConvertFaceToProfile = modellingConvertFaceToProfile;
 //AGM.Modelling.CreateTextSheet( text, fontname, fontsize, xlength, ylength, target_origin, target_x_axis, target_y_axis, wrap, out ModelObject, )
 AGM.Modelling.CreateTextSheet = modellingCreateTextSheet;
-//AGM.Modelling.SweepByDist( in\out profile, distance, bothside )
+//AGM.Modelling.SweepByDist( in\out profile, distance, bothside = false, draftangle = 0 )
 AGM.Modelling.SweepByDist = modellingSweepByDist;
 //AGM.Modelling.IntersectHollowCylinder( in\out Modelbody, bottom_position, top_position, max_radius, min_radius )
 AGM.Modelling.IntersectHollowCylinder = modellingIntersectHollowCylinder;
